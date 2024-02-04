@@ -1,13 +1,13 @@
-package Week03;
+package week03;
 
-public class ArraysAndMethods {
-
+public class week03ArraysAndMethods {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		System.out.println(sumOfDigits(100));
 		reverseArrayOfNumbers();
 
 	}
+	
 	
 	public static void reverseArrayOfNumbers () {
 		int[] arr = {2, 3, 4, 5, 1};
@@ -19,6 +19,12 @@ public class ArraysAndMethods {
 		    reversed[i] = arr[counter];
 		    counter++;
 		}
+		
+		for (int x: reversed) {
+		    System.out.println(x);
+		}
+		
+		
 	}
 	
 	public static int sumOfDigits(int num) {
@@ -46,7 +52,4 @@ public class ArraysAndMethods {
 	    
 	    System.out.println(result);
 	}
-	
-
-
 }
