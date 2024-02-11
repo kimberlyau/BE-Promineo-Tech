@@ -1,6 +1,6 @@
 package week04;
 
-import java.util.Arrays;
+import java.util.*;
 
 public class CodingProject {
 	
@@ -211,14 +211,16 @@ public class CodingProject {
 		 */
 		
 		double[] myDoublesArray1 = {10.2, 8.6, 9.8, 3.6, 12.9};
-		System.out.println("10. The average in the array of doubles " + Arrays.toString(myDoublesArray1) + " is "+ avgOfDoubles(myDoublesArray1));
+		System.out.println("10. The average in the array of doubles " + Arrays.toString(myDoublesArray1) + " is "
+				+ avgOfDoubles(myDoublesArray1));
 
 		/* 
 		 * 11. Write a method that takes two arrays of double and returns true if the average of the elements in the first array is 
 		 * greater than the average of the elements in the second array.
 		 */
 		double[] myDoublesArray2 = {12.8, 3.6, 9.5, 1.6, 1.9};
-		System.out.println("11. Is the average of the first doubles array larger than the second? " + isLargerAvg(myDoublesArray1, myDoublesArray2));
+		System.out.println("11. Is the average of the first doubles array larger than the second? " 
+				+ isLargerAvg(myDoublesArray1, myDoublesArray2));
 
 		/* 
 		 * 12. Write a method called willBuyDrink that takes a boolean isHotOutside, and a double moneyInPocket, and returns true if it 
@@ -235,6 +237,9 @@ public class CodingProject {
 		double[] shoppingList = {19.99, 21.05, 5.99, 18.00, 35.50};
 		System.out.println("13. The max number of the shopping list is: " + maxNumber(shoppingList));
 		
+		List<String> list = new ArrayList<>();
+		Set<StringBuilder> strSet = new HashSet<>();
+		Map<String, String> map = new HashMap<>();
 	}
 
 }
