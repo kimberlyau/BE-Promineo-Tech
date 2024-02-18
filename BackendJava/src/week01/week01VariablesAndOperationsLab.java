@@ -1,4 +1,4 @@
-package Week01;
+package week01;
 //
 // Copyright (c) 2023 Promineo Tech
 // Author:  Promineo Tech Academic Team
